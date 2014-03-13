@@ -1,4 +1,4 @@
-//	Backbone v1.0, Copyright 2014, Joe Mottershaw, https://github.com/joemottershaw/
+//	Backbone v1.4, Copyright 2014, Joe Mottershaw, https://github.com/joemottershaw/
 //	================================================================================
 
 //	Table of Contents

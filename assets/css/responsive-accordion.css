@@ -1,5 +1,5 @@
-/*	Responsive Accordion v1.1, Copyright 2014, Joe Mottershaw, https://github.com/joemottershaw/
-//	============================================================================================ */
+/*	Responsive Accordion v1.1.1, Copyright 2014, Joe Mottershaw, https://github.com/joemottershaw/
+//	============================================================================================== */
 
 /*	Table of Contents
 //	==================================================
@@ -16,12 +16,20 @@
 		list-style-type: none;
 	}
 
-	.accordion.bm-remove	{ margin-bottom: 0;    }
-	.accordion.bm-smaller	{ margin-bottom: 5px;  }
-	.accordion.bm-small		{ margin-bottom: 10px; }
-	.accordion.bm-medium	{ margin-bottom: 20px; }
-	.accordion.bm-large		{ margin-bottom: 30px; }
-	.accordion.bm-large		{ margin-bottom: 40px; }
+	/* For use in conjunction with the Backbone Responsive Framework - https://github.com/joemottershaw/backbone */
+		.accordion.bm-remove	{ margin-bottom: 0;    }
+		.accordion.bm-smaller	{ margin-bottom: 5px;  }
+		.accordion.bm-small		{ margin-bottom: 10px; }
+		.accordion.bm-medium	{ margin-bottom: 20px; }
+		.accordion.bm-large		{ margin-bottom: 30px; }
+		.accordion.bm-larger	{ margin-bottom: 40px; }
+
+		.accordion.tm-remove	{ margin-top: 0;    }
+		.accordion.tm-smaller	{ margin-top: 5px;  }
+		.accordion.tm-small		{ margin-top: 10px; }
+		.accordion.tm-medium	{ margin-top: 20px; }
+		.accordion.tm-large		{ margin-top: 30px; }
+		.accordion.tm-larger	{ margin-top: 40px; }
 
 	.accordion li {
 		margin: 0 0 10px 0;

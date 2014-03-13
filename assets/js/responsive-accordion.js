@@ -1,5 +1,5 @@
-//	Responsive Accordion v1.1, Copyright 2014, Joe Mottershaw, https://github.com/joemottershaw/
-//	============================================================================================
+//	Responsive Accordion v1.1.1, Copyright 2014, Joe Mottershaw, https://github.com/joemottershaw/
+//	==============================================================================================
 
 	$(document).ready(function() {
 		$('.accordion').each(function() {

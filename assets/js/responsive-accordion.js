@@ -1,31 +1,30 @@
-//	Responsive Accordion v1.1.1, Copyright 2014, Joe Mottershaw, https://github.com/joemottershaw/
-//	==============================================================================================
+//	Responsive Accordion v1.2, Copyright 2014, Joe Mottershaw, https://github.com/joemottershaw/
+//	============================================================================================
 
 	$(document).ready(function() {
-		$('.accordion').each(function() {
+		$('.responsive-accordion').each(function() {
 			// Set Expand/Collapse Icons
-				$('.minus', this).hide();
+				$('.responsive-accordion-minus', this).hide();
 
 			// Hide panels
-				$('.accordion-panel', this).hide();
+				$('.responsive-accordion-panel', this).hide();
 
 			// Bind the click event handler
-				$('.accordion-head', this).click(function(e) {
-
+				$('.responsive-accordion-head', this).click(function(e) {
 					// Get elements
-						var thisAccordion = $(this).parent().parent();
-						var thisHead = $(this);
-						var thisPlus = thisHead.find('.plus');
-						var thisMinus = thisHead.find('.minus');
-						var thisPanel = thisHead.siblings('.accordion-panel');
+						var	thisAccordion = $(this).parent().parent(),
+							thisHead = $(this),
+							thisPlus = thisHead.find('.responsive-accordion-plus'),
+							thisMinus = thisHead.find('.responsive-accordion-minus'),
+							thisPanel = thisHead.siblings('.responsive-accordion-panel');
 
 					// Reset all plus/mins symbols on all headers
-						thisAccordion.find('.plus').show();
-						thisAccordion.find('.minus').hide();
+						thisAccordion.find('.responsive-accordion-plus').show();
+						thisAccordion.find('.responsive-accordion-minus').hide();
 
 					// Reset all head/panels active statuses except for current
-						thisAccordion.find('.accordion-head').not(this).removeClass('active');
-						thisAccordion.find('.accordion-panel').not(this).removeClass('active').slideUp();
+						thisAccordion.find('.responsive-accordion-head').not(this).removeClass('active');
+						thisAccordion.find('.responsive-accordion-panel').not(this).removeClass('active').slideUp();
 
 					// Toggle current head/panel active statuses
 						if (thisHead.hasClass('active')) {

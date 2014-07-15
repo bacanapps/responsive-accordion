@@ -1,4 +1,4 @@
-//	Responsive Accordion v1.2, Copyright 2014, Joe Mottershaw, https://github.com/joemottershaw/
+//	Responsive Accordion v1.3, Copyright 2014, Joe Mottershaw, https://github.com/joemottershaw/
 //	============================================================================================
 
 	$(document).ready(function() {

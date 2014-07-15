@@ -1,4 +1,4 @@
-Responsive Accordion v1.2
+Responsive Accordion v1.3
 =========================
 
 A simple to use, alternative, lightweight and responsive jQuery Accordion plugin.
@@ -10,8 +10,8 @@ Usage
 =====
 
 <ul>
-  <li>Link both the responsive-accordion.css and responsive-accordion.js files into your document</li>
-  <li>Create an unordered list and give it a class name 'accordion'</li>
+  <li>Link both the 'responsive-accordion.css' and 'responsive-accordion.js' files into your document</li>
+  <li>Create an unordered list and give it a class name 'responsive-accordion'</li>
   <li>In each list item place 2 div's</li>
   <li>The first div apply the class name 'responsive-accordion-head'</li>
   <li>The second div apply the class name 'responsive-accordion-panel'</li>
